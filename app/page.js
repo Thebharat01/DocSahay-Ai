@@ -50,9 +50,9 @@ export default function Home() {
           display: "grid",
           gap: "15px"
         }}>
-          <div>📄 Document समझें — ₹49</div>
-          <div>📝 Form Filling Guide — ₹49</div>
-          <div>✍️ Application बनाएं — ₹49</div>
+          <div>📄 Document समझें — ₹11</div>
+          <div>📝 Form Filling Guide — ₹21</div>
+          <div>✍️ Application बनाएं — ₹21</div>
         </div>
       </div>
     </main>
