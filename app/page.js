@@ -39,7 +39,7 @@ export default function Home() {
         `${Date.now()}-${file.name.replace(/[^a-zA-Z0-9.-]/g, "-")}`;
 
       const { error } = await supabase.storage
-        .from("documents")
+        .from("Documents")
         .upload(fileName, file);
 
       if (error) {
