@@ -57,7 +57,6 @@ export default function Home() {
 
       setFile(selectedFile);
       setMessage("✅ Document successfully upload हो गया!");
-
     } catch (error) {
       console.error(error);
       setMessage("❌ Upload failed: " + error.message);
@@ -93,7 +92,6 @@ export default function Home() {
 
       setResult(data.result);
       setMessage("✅ Document analysis complete!");
-
     } catch (error) {
       console.error(error);
       setMessage("❌ Analysis failed: " + error.message);
@@ -125,12 +123,7 @@ export default function Home() {
           boxShadow: "0 10px 30px rgba(0,0,0,0.08)",
         }}
       >
-        <h1
-          style={{
-            fontSize: "42px",
-            marginBottom: "10px",
-          }}
-        >
+        <h1 style={{ fontSize: "42px", marginBottom: "10px" }}>
           DocSahay AI
         </h1>
 
@@ -223,12 +216,7 @@ export default function Home() {
               border: "1px solid #e5e7eb",
             }}
           >
-            <h2
-              style={{
-                marginTop: 0,
-                marginBottom: "15px",
-              }}
-            >
+            <h2 style={{ marginTop: 0 }}>
               🤖 AI Analysis
             </h2>
 
@@ -242,51 +230,6 @@ export default function Home() {
               {result}
             </div>
           </div>
-        )}
-
-        <div
-          style={{
-            marginTop: "35px",
-            display: "grid",
-            gap: "15px",
-          }}
-        >
-          <div>📄 Document समझें — ₹9</div>
-          <div>📝 Form Filling Guide — ₹19</div>
-          <div>✍️ Application बनाएं — ₹19</div>
-        </div>
-
-        <p
-          style={{
-            marginTop: "25px",
-            fontSize: "14px",
-            color: "#777",
-          }}
-        >
-          PDF, JPG और PNG • Maximum 10 MB
-        </p>
-      </div>
-    </main>
-  );
-}            padding: "15px 30px",
-            borderRadius: "10px",
-            fontSize: "18px",
-            cursor: uploading ? "not-allowed" : "pointer",
-          }}
-        >
-          {uploading ? "⏳ Uploading..." : "📄 Upload Document"}
-        </button>
-
-        {message && (
-          <p
-            style={{
-              marginTop: "20px",
-              fontSize: "16px",
-              color: "#333",
-            }}
-          >
-            {message}
-          </p>
         )}
 
         <div
