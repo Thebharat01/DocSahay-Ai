@@ -31,10 +31,10 @@ export default function RefundCancellation() {
             </h2>
             <p>
               DocSahay-AI primarily provides digital and AI-powered services.
-              Because these services may be processed and delivered
-              electronically, a refund may not be available once the
-              purchased service has been successfully used or the requested
-              AI processing has been completed.
+              Because these services are delivered electronically, a refund
+              may not be available once the purchased service has been
+              successfully used or the requested AI processing has been
+              completed.
             </p>
           </section>
 
@@ -48,9 +48,8 @@ export default function RefundCancellation() {
               to request cancellation.
             </p>
             <p className="mt-3">
-              Cancellation requests will be reviewed on a case-by-case basis
-              and approval will depend on whether the service has already
-              been initiated or delivered.
+              Cancellation requests will be reviewed based on whether the
+              service has already been initiated or delivered.
             </p>
           </section>
 
@@ -58,6 +57,7 @@ export default function RefundCancellation() {
             <h2 className="mb-2 text-xl font-semibold text-gray-900">
               4. Refund Eligibility
             </h2>
+
             <p>
               A refund may be considered in situations such as:
             </p>
@@ -76,7 +76,7 @@ export default function RefundCancellation() {
                 service and the issue could not reasonably be resolved.
               </li>
               <li>
-                Another refund situation is required under applicable law.
+                A refund is required under applicable law.
               </li>
             </ul>
           </section>
@@ -85,6 +85,7 @@ export default function RefundCancellation() {
             <h2 className="mb-2 text-xl font-semibold text-gray-900">
               5. Non-Refundable Situations
             </h2>
+
             <p>
               Refunds may generally not be provided in the following cases:
             </p>
@@ -119,6 +120,7 @@ export default function RefundCancellation() {
             <h2 className="mb-2 text-xl font-semibold text-gray-900">
               6. Duplicate Payments
             </h2>
+
             <p>
               If you believe that you have accidentally made a duplicate
               payment for the same service, please contact us with the
@@ -131,11 +133,13 @@ export default function RefundCancellation() {
             <h2 className="mb-2 text-xl font-semibold text-gray-900">
               7. Failed Transactions
             </h2>
+
             <p>
               If your bank account or payment method has been debited but
               the transaction was not successfully confirmed by our system,
               please contact us with the transaction details.
             </p>
+
             <p className="mt-3">
               Once the payment status is verified, any applicable reversal
               or refund will be processed through the payment gateway or
@@ -147,10 +151,12 @@ export default function RefundCancellation() {
             <h2 className="mb-2 text-xl font-semibold text-gray-900">
               8. Refund Processing Time
             </h2>
+
             <p>
               Once a refund is approved, we will initiate the refund through
               the applicable payment gateway or payment method.
             </p>
+
             <p className="mt-3">
               The time required for the refunded amount to appear in your
               bank account or payment account may vary depending on your
@@ -162,15 +168,22 @@ export default function RefundCancellation() {
             <h2 className="mb-2 text-xl font-semibold text-gray-900">
               9. How to Request a Refund
             </h2>
+
             <p>
-              To request a refund or report a payment issue, contact us
-              through the email address provided on our website.
+              To request a refund or report a payment issue, contact us at:
             </p>
 
             <div className="mt-4 rounded-xl bg-gray-100 p-4">
               <p>
-                <strong>Email:</strong> your-email@example.com
+                <strong>Email:</strong>{" "}
+                <a
+                  href="mailto:info.thebharatfeed@gmail.com"
+                  className="text-blue-600 hover:underline"
+                >
+                  info.thebharatfeed@gmail.com
+                </a>
               </p>
+
               <p className="mt-2">
                 Please include your payment/order details, transaction ID,
                 date of payment, and a brief explanation of the issue.
@@ -182,6 +195,7 @@ export default function RefundCancellation() {
             <h2 className="mb-2 text-xl font-semibold text-gray-900">
               10. Refund Verification
             </h2>
+
             <p>
               We may verify the transaction and service usage before
               approving a refund. Additional information may be requested
@@ -193,6 +207,7 @@ export default function RefundCancellation() {
             <h2 className="mb-2 text-xl font-semibold text-gray-900">
               11. Changes to This Policy
             </h2>
+
             <p>
               DocSahay-AI may update this Refund & Cancellation Policy from
               time to time. Any updated version will be published on this
@@ -204,19 +219,28 @@ export default function RefundCancellation() {
             <h2 className="mb-2 text-xl font-semibold text-gray-900">
               12. Contact Us
             </h2>
+
             <p>
               If you have questions regarding refunds, cancellations,
-              payments, or transactions, please contact us through the
-              contact details provided on our website.
+              payments, or transactions, please contact us using the
+              information below.
             </p>
 
-            <p className="mt-3">
-              <strong>Website:</strong> DocSahay-AI
-            </p>
+            <div className="mt-4 rounded-xl bg-gray-100 p-4">
+              <p>
+                <strong>Website:</strong> DocSahay-AI
+              </p>
 
-            <p>
-              <strong>Email:</strong> your-email@example.com
-            </p>
+              <p className="mt-2">
+                <strong>Email:</strong>{" "}
+                <a
+                  href="mailto:info.thebharatfeed@gmail.com"
+                  className="text-blue-600 hover:underline"
+                >
+                  info.thebharatfeed@gmail.com
+                </a>
+              </p>
+            </div>
           </section>
 
           <div className="mt-8 rounded-xl bg-gray-100 p-4 text-sm">
